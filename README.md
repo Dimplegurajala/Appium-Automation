@@ -3,7 +3,7 @@ Python + Appium E2E Automation Framework for Android Retail App using Page Objec
 
 #  Android E2E Automation Framework | Sauce Labs Demo App
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.13%2B-blue?style=for-the-badge&logo=python&logoColor=white)
 ![Appium](https://img.shields.io/badge/Appium-2.0-purple?style=for-the-badge&logo=appium&logoColor=white)
 ![Pytest](https://img.shields.io/badge/Framework-Pytest-yellow?style=for-the-badge&logo=pytest&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Android_Native-green?style=for-the-badge&logo=android&logoColor=white)
