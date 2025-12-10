@@ -45,7 +45,7 @@ You must add these to your System Path (Windows) or `.zshrc` / `.bash_profile` (
 * **Stability over Speed:** Implemented a mix of **Explicit Waits** and strategic `time.sleep` to handle complex page load animations (Payment Page transitions) where standard waits failed.
 
 ##  Tech Stack
-* **Language:** Python 3.3.x(latest)
+* **Language:** Python 3.13.x(latest)
 * **Mobile Driver:** Appium 
 * **Test Runner:** Pytest
 * **Locators:** Appium Inspector (Accessibility ID, XPath, Android UIAutomator)
