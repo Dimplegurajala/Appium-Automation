@@ -18,7 +18,24 @@ The project demonstrates a professional implementation of the **Page Object Mode
 The automation is built for the **Sauce Labs My Demo App (React Native)**.
 * **App Source:** [Sauce Labs GitHub Releases](https://github.com/saucelabs/my-demo-app-rn/releases)
 * **demo .apk Used:** `Android-MyDemoAppRN.1.3.0.build-244.apk` (or latest version)
-* **Platform:** Android Emulator (Pixel API 35)
+* **Platform:** Android Emulator (Pixel API 35 via Android Studio)
+
+### 1. Essential Tools Needed
+* **[Python 3.x](https://www.python.org/):** The programming language for the framework.
+* **[Node.js](https://nodejs.org/):** Required to run the Appium Server.
+* **[Android Studio](https://developer.android.com/studio):** Required for the Android SDK and Emulator.
+* **[Java JDK 11+](https://www.oracle.com/java/technologies/downloads/):** Required by Android SDK.
+  
+### 2. Environment Variables (Critical!)
+You must add these to your System Path (Windows) or `.zshrc` / `.bash_profile` (Mac/Linux) for Appium to find your device.
+
+* **JAVA_HOME**: Path to your JDK installation.
+    * *Example:* `C:\Program Files\Java\jdk-17`
+* **ANDROID_HOME**: Path to your Android SDK.
+    * *Example:* `C:\Users\Name\AppData\Local\Android\Sdk`
+* **Path Updates**: Add these platform-tools to your system PATH:
+    * `%ANDROID_HOME%\platform-tools`
+    * `%ANDROID_HOME%\cmdline-tools\latest\bin`
 
 ##  Key Features
 * **Page Object Model (POM):** Strict separation between test scripts and page logic (`pages/` vs `tests/`).
